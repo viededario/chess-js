@@ -1,0 +1,33 @@
+#boardGame {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+}
+
+.square svg {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.beige {
+    background-color: rgb(133, 133, 128);
+}
+
+.brown {
+    background-color: rgb(165, 42, 42);
+}
+
+.black {
+    fill: black
+}
+
+.white {
+    fill: white
+}
